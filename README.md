@@ -10,20 +10,6 @@ FEATURE :
 - MongoDB + Mongoose for database
 - Environment config via `.env`
 
- 
-
-Project Structure :
-     
-blog-api/
-├── models/
-│ └── Blog.js
-├── routes/
-│ └── blogRoutes.js
-├── .env
-├── server.js
-├── package.json
-└── README.md
-
 
 Installation & Setup :
 
@@ -40,16 +26,19 @@ Installation & Setup :
 
 
 4. Start the server
- - npm run dev
+
+ npm run dev
 
  Or for production:
- - npm start
+ 
+  npm start
 
 
 
 API Endpoints
 
  Base URL: http://localhost:5000/api/blogs
+
 
 Method	Endpoint	Description
 
