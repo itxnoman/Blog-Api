@@ -6,9 +6,9 @@ A simple RESTful Blog API built with Node.js, Express, and MongoDB using Mongoos
 
 FEATURE :
 
-- Create, Read, Update, Delete (CRUD) blog posts
-- MongoDB + Mongoose for database
-- Environment config via `.env`
+- Create, Read, Update, Delete (CRUD) blog posts.
+- MongoDB + Mongoose for database.
+- Environment config via `.env`.
 
 
 Installation & Setup :
@@ -43,17 +43,25 @@ API Endpoints
 Method	Endpoint	Description
 
  POST	/	Create a blog
+ 
  GET	/	Get all blogs
+
  GET	/:id	Get single blog by ID
+ 
  PUT	/:id	Update blog by ID
+ 
  DELETE	/:id	Delete blog by ID
 
 
 
 Tech Used :
- Node.js
- Express.js
- MongoDB
- Mongoose
- Dotenv
- Nodemon
+
+ Node.js.
+ 
+ Express.js.
+ 
+ MongoDB.
+ 
+ Mongoose.
+ 
+  
